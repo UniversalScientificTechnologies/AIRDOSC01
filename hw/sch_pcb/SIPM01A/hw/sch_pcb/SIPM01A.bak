@@ -79,17 +79,6 @@ F 3 "" H 8200 3700 60  0001 C CNN
 	1    8450 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C2
-U 1 1 5BABB28A
-P 3350 3600
-F 0 "C2" H 3400 3700 50  0000 L CNN
-F 1 "C" V 3500 3500 50  0000 L CNN
-F 2 "Mlab_C:TantalC_SizeC_Reflow" H 3388 3450 50  0001 C CNN
-F 3 "~" H 3350 3600 50  0001 C CNN
-	1    3350 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 3950 3350 3750
 Wire Wire Line
@@ -214,17 +203,6 @@ Wire Wire Line
 	3050 3600 3050 3950
 Wire Wire Line
 	2750 3400 2850 3400
-$Comp
-L Device:C C11
-U 1 1 5BAF9BD1
-P 7400 3600
-F 0 "C11" H 7450 3700 50  0000 L CNN
-F 1 "C" V 7550 3500 50  0000 L CNN
-F 2 "Mlab_C:TantalC_SizeC_Reflow" H 7438 3450 50  0001 C CNN
-F 3 "~" H 7400 3600 50  0001 C CNN
-	1    7400 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 3950 7400 3750
 Wire Wire Line
@@ -247,17 +225,6 @@ Wire Wire Line
 	7100 3600 7100 3950
 Wire Wire Line
 	6800 3400 6900 3400
-$Comp
-L Device:C C8
-U 1 1 5BAFA365
-P 6050 3600
-F 0 "C8" H 6100 3700 50  0000 L CNN
-F 1 "C" V 6200 3500 50  0000 L CNN
-F 2 "Mlab_C:TantalC_SizeC_Reflow" H 6088 3450 50  0001 C CNN
-F 3 "~" H 6050 3600 50  0001 C CNN
-	1    6050 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6050 3950 6050 3750
 Wire Wire Line
@@ -280,17 +247,6 @@ Wire Wire Line
 	5750 3600 5750 3950
 Wire Wire Line
 	5450 3400 5550 3400
-$Comp
-L Device:C C5
-U 1 1 5BAFAF14
-P 4700 3600
-F 0 "C5" H 4750 3700 50  0000 L CNN
-F 1 "C" V 4850 3500 50  0000 L CNN
-F 2 "Mlab_C:TantalC_SizeC_Reflow" H 4738 3450 50  0001 C CNN
-F 3 "~" H 4700 3600 50  0001 C CNN
-	1    4700 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 3950 4700 3750
 Wire Wire Line
@@ -415,10 +371,10 @@ Wire Wire Line
 Wire Wire Line
 	7400 3400 7750 3400
 $Comp
-L MLAB_HEADER:HEADER_1x01 J?
+L MLAB_HEADER:HEADER_1x01 J7
 U 1 1 5BB090B2
 P 2850 3950
-F 0 "J?" H 3100 3950 60  0000 C CNN
+F 0 "J7" H 3100 3950 60  0000 C CNN
 F 1 "HEADER_1x01" H 2769 3819 60  0001 C CNN
 F 2 "Mlab_Pin_Headers:Straight_1x01" H 2850 3950 60  0001 C CNN
 F 3 "" H 2850 3950 60  0000 C CNN
@@ -428,4 +384,48 @@ $EndComp
 Connection ~ 3050 3950
 Text Label 8450 3950 0    60   ~ 0
 +
+$Comp
+L Device:CP C2
+U 1 1 5BB0957A
+P 3350 3600
+F 0 "C2" H 3232 3554 50  0000 R CNN
+F 1 "CP" H 3232 3645 50  0000 R CNN
+F 2 "Mlab_C:TantalC_SizeC_Reflow" H 3388 3450 50  0001 C CNN
+F 3 "~" H 3350 3600 50  0001 C CNN
+	1    3350 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5BB09763
+P 4700 3600
+F 0 "C3" H 4582 3554 50  0000 R CNN
+F 1 "CP" H 4582 3645 50  0000 R CNN
+F 2 "Mlab_C:TantalC_SizeC_Reflow" H 4738 3450 50  0001 C CNN
+F 3 "~" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C5
+U 1 1 5BB097A9
+P 6050 3600
+F 0 "C5" H 5932 3554 50  0000 R CNN
+F 1 "CP" H 5932 3645 50  0000 R CNN
+F 2 "Mlab_C:TantalC_SizeC_Reflow" H 6088 3450 50  0001 C CNN
+F 3 "~" H 6050 3600 50  0001 C CNN
+	1    6050 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5BB09840
+P 7400 3600
+F 0 "C6" H 7282 3554 50  0000 R CNN
+F 1 "CP" H 7282 3645 50  0000 R CNN
+F 2 "Mlab_C:TantalC_SizeC_Reflow" H 7438 3450 50  0001 C CNN
+F 3 "~" H 7400 3600 50  0001 C CNN
+	1    7400 3600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

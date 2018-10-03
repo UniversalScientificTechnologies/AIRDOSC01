@@ -11,3 +11,4 @@
 10;"J1,J2,J3,J4,J5";"Straight_2x01";5;"HEADER_2x01_PARALLEL";;;
 11;"C1";"FIR_1806";1;"EMI_Filter_C";;;
 12;"J6";"Straight_1x02";1;"JUMP2_2x1";;;
+13;"J7,J8,J9";"Straight_1x02";3;"HEADER_2x01";;;

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 8)
     (tracks 66)
     (zones 0)
     (modules 20)
@@ -717,9 +717,6 @@
   (gr_text + (at 16.51 -11.43) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text MLAB.CZ (at -27.305 -19.685) (layer B.Cu) (tstamp 5BB87980)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
   (gr_text 2018 (at 10.16 -5.08 90) (layer F.SilkS) (tstamp 5BB87970)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -798,7 +795,7 @@
   (segment (start 17.78 -13.98524) (end 14.62024 -17.145) (width 0.8) (layer B.Cu) (net 11) (status 20))
   (segment (start 14.62024 -17.145) (end 13.97 -17.145) (width 0.8) (layer B.Cu) (net 11) (status 30))
 
-  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 5BB0E868) (hatch edge 0.508)
+  (zone (net 5) (net_name GND) (layer F.Cu) (tstamp 5BB0E73F) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -886,7 +883,7 @@
       )
     )
   )
-  (zone (net 5) (net_name GND) (layer B.Cu) (tstamp 5BB0E865) (hatch edge 0.508)
+  (zone (net 5) (net_name GND) (layer B.Cu) (tstamp 5BB0E73C) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

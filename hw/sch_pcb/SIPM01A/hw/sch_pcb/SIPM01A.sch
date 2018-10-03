@@ -190,7 +190,7 @@ L Device:EMI_Filter_C C1
 U 1 1 5BAF331F
 P 3050 3500
 F 0 "C1" H 3050 3805 50  0000 C CNN
-F 1 "EMI_Filter_C" H 3050 3714 50  0000 C CNN
+F 1 "1u5/50V - NFM41PC155B1H3L" H 3050 3714 50  0000 C CNN
 F 2 "Mlab_L:FIR_1806" V 3050 3500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3050 3500 50  0001 C CNN
 	1    3050 3500
@@ -212,7 +212,7 @@ L Device:EMI_Filter_C C10
 U 1 1 5BAF9BE7
 P 7100 3500
 F 0 "C10" H 7100 3805 50  0000 C CNN
-F 1 "EMI_Filter_C" H 7100 3714 50  0000 C CNN
+F 1 "1u5/50V - NFM41PC155B1H3L" H 7100 3714 50  0000 C CNN
 F 2 "Mlab_L:FIR_1806" V 7100 3500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7100 3500 50  0001 C CNN
 	1    7100 3500
@@ -234,7 +234,7 @@ L Device:EMI_Filter_C C7
 U 1 1 5BAFA37B
 P 5750 3500
 F 0 "C7" H 5750 3805 50  0000 C CNN
-F 1 "EMI_Filter_C" H 5750 3714 50  0000 C CNN
+F 1 "1u5/50V - NFM41PC155B1H3L" H 5750 3714 50  0000 C CNN
 F 2 "Mlab_L:FIR_1806" V 5750 3500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5750 3500 50  0001 C CNN
 	1    5750 3500
@@ -256,7 +256,7 @@ L Device:EMI_Filter_C C4
 U 1 1 5BAFAF2A
 P 4400 3500
 F 0 "C4" H 4400 3805 50  0000 C CNN
-F 1 "EMI_Filter_C" H 4400 3714 50  0000 C CNN
+F 1 "1u5/50V - NFM41PC155B1H3L" H 4400 3714 50  0000 C CNN
 F 2 "Mlab_L:FIR_1806" V 4400 3500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4400 3500 50  0001 C CNN
 	1    4400 3500
