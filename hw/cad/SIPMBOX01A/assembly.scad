@@ -1,9 +1,7 @@
-use <SRC/SIPMBOX01A.scad>
+use <src/SIPMBOX01A.scad>
 
 
 include <configuration.scad>
-
-
 
 
 SIPMBOX01A();
