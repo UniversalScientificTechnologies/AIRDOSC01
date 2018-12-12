@@ -1,10 +1,10 @@
 # AIRDOSC01
-Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. Character of its construction makes it especially suitable for placement into UAVs.
+* *Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. Character of its construction makes it especially suitable for placement into UAVs.* *
 
 
 ![AIRDOSC01A back panel](/doc/src/img/AIRDOSC01A_box_back.JPG "AIRDOS back panel")
 
-Technical parameters are following: 
+**Technical parameters are following:** 
 
 * Detection element: scintillating crystal integrated with SiPM
 * Autonomous operation: battery
@@ -18,14 +18,14 @@ Technical parameters are following:
 * Open-source HW and SW: YES
 * Device status indicator: LED on panel
 
-Device block diagram
+**Device block diagram**
 ![AIRDOSC01A block diagram](hw/sch_pcb/AIRDOSC01A_block.png)
 
-PCRD05A semiconductor detector schematics
+**PCRD05A semiconductor detector schematics**
 ![AIRDOSC01A - detektor schematics ](hw/sch_pcb/PCRD05A_Detector_Schematics.png)
 
-SIPM01B schematics
+**SIPM01B schematics**
 ![SIPM01B schematics ](hw/sch_pcb/SIPM01B_Schematics.png)
 
-SIPMPOWER01A schematics
+**SIPMPOWER01A schematics**
 ![SIPMPOWER01A schematics ](hw/sch_pcb/SIPMPOWER01A_Schematics.png)
