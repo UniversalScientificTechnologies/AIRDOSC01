@@ -3,7 +3,7 @@
 
 
 ![AIRDOSC01A front panel](/doc/src/img/AIRDOSC01A_box_front.JPG "AIRDOS front panel")
-![AIRDOSC01A back panel](/doc/src/img/AIRDOSC01A_box_back.JPG "AIRDOS back panel")
+![AIRDOSC01A back panel](/doc/src/img/AIRDOSC01A_box_back.jpg "AIRDOS back panel")
 
 **Technical parameters are following:** 
 
