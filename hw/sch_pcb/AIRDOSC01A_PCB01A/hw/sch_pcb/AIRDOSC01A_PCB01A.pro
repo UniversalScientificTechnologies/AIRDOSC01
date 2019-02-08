@@ -1,4 +1,4 @@
-update=03.10.2018 15:29:48
+update=8. 2. 2019 8:55:51
 version=1
 last_client=kicad
 [general]
@@ -19,7 +19,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=module.kicad_wks
-LastNetListRead=SIPM01A.net
+LastNetListRead=AIRDOSC01A_PCB01A.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -55,7 +55,8 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgesAndCourtyardsLineWidth=0.15
+EdgeCutLineWidth=0.12
+CourtyardLineWidth=0.12
 OthersLineWidth=0.15
 OthersTextSizeV=1
 OthersTextSizeH=1
