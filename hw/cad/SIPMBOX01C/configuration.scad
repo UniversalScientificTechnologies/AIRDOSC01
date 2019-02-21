@@ -5,10 +5,17 @@ $fn=40; // model faces resolution.
 //----------------------------------------------------------------
 
 vyska_krystalu=24;
-zakladna_krystalu_x=13; //1mm rezerva
-zakladna_krystalu_y=13;
-sila_steny=2;
-vyska_zapusti_pro_PCB=10; //výčka krycího matriálu pro PCB a zároveň pro vytvoření vany pro zalití silikonem, kvůli světlotěsnoti.
+presah_krystalu=5;
+vyska_drzaku_krystalu=vyska_krystalu-presah_krystalu;
+
+
+zakladna_krystalu_x=7.3; //1.3mm rezerva hrana SIPM je 7mm
+zakladna_krystalu_y=7.3;
+sila_steny=4;
+sila_materialu_zakladny=2;
+
+
+vyska_zapusti_pro_PCB=0; //výčka krycího matriálu pro PCB a zároveň pro vytvoření vany pro zalití silikonem, kvůli světlotěsnoti.
 vyska_SIPM_nad_PCB=2.4; //výška celého SIPM senzoru
 tolerance_pro_dotazeni_k_SIPM=-0.5; // kvůli dotažení krystalu k SIPM
 velikost_modulu_x=2; //počet der
