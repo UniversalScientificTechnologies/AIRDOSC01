@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:AIRDOSC01A_PCB01A-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -359,6 +359,7 @@ F 0 "U2" H 8150 4100 50  0000 L CNN
 F 1 "OPA836IDB" H 8150 4000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8100 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa847.pdf" H 8100 4050 50  0001 C CNN
+F 4 "5c7273171287500b4e112ff8" H 8100 3850 50  0001 C CNN "UST_ID"
 	1    8100 3850
 	1    0    0    -1  
 $EndComp
