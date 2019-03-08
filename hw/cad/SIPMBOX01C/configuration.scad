@@ -6,11 +6,12 @@ $fn=40; // model faces resolution.
 
 vyska_krystalu=24;
 presah_krystalu=5;
+rezerva_nad_krystalem=3;
 vyska_drzaku_krystalu=vyska_krystalu-presah_krystalu;
 
 
-zakladna_krystalu_x=7.3; //1.3mm rezerva hrana SIPM je 7mm
-zakladna_krystalu_y=7.3;
+zakladna_krystalu_x=7.8; //0.8mm rezerva hrana SIPM je 7mm
+zakladna_krystalu_y=7.8;
 sila_steny=4;
 sila_materialu_zakladny=2;
 
@@ -27,3 +28,7 @@ sirka_matky=6.7;
 prumer_sroubu=3.4;
 prumer_hlavy_sroubu=6;
 
+//Pro díl SIPMBOX01C_D02
+D02_velikost_modulu_x=3; //počet der
+D02_velikost_modulu_y=4;
+D02_vyska_bocniho_prekryvu=10;

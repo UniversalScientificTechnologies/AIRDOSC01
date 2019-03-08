@@ -1,17 +1,101 @@
 include <../configuration.scad>
  
   //translate([0,0,10]) 
- //SIPMBOX01B();
- 
- 
+SIPMBOX01C_D02();
+
+translate([-rotec_der_modulu/2,0,0])
+SIPMBOX01C_D01();
+
+translate([-rotec_der_modulu/2,0,0])
+SIPMBOX01C_D03();
+
+module SIPMBOX01C_D03()
+{
   difference (){
       union() {
  //Zakladna
- translate([-(velikost_modulu_x * rotec_der_modulu)/2+2,-(velikost_modulu_y * rotec_der_modulu)/2+2,0])
+ translate([-(velikost_modulu_x * rotec_der_modulu+2*sila_materialu_zakladny)/2+2,-(velikost_modulu_y * rotec_der_modulu+2*sila_materialu_zakladny)/2+2,0])
  
  minkowski()
 {
-  cube([velikost_modulu_x * rotec_der_modulu-2*2,velikost_modulu_y * rotec_der_modulu-2*2,sila_materialu_zakladny]);
+  cube([velikost_modulu_x * rotec_der_modulu-2*2+2*sila_materialu_zakladny,velikost_modulu_y * rotec_der_modulu-2*2+2*sila_materialu_zakladny,sila_materialu_zakladny+vyska_krystalu+rezerva_nad_krystalem]);
+  cylinder(r=2,h=0.1);
+}
+
+
+
+}
+
+//odstranění vnitřního prostoru ve tvaru krychle
+ translate([-(velikost_modulu_x * rotec_der_modulu)/2,-(velikost_modulu_y * rotec_der_modulu)/2,sila_materialu_zakladny])
+cube([velikost_modulu_x * rotec_der_modulu,velikost_modulu_y * rotec_der_modulu,sila_materialu_zakladny+vyska_krystalu+rezerva_nad_krystalem]);
+
+
+ 
+} 
+} 
+
+module SIPMBOX01C_D02()
+{
+  difference (){
+      union() {
+ //Zakladna
+ translate([-(D02_velikost_modulu_x * rotec_der_modulu+2*sila_materialu_zakladny)/2+2,-(D02_velikost_modulu_y * rotec_der_modulu+2*sila_materialu_zakladny)/2+2-3/2,0])
+ 
+ minkowski()
+{
+  cube([D02_velikost_modulu_x * rotec_der_modulu-2*2+2*sila_materialu_zakladny,D02_velikost_modulu_y * rotec_der_modulu-2*2+2*sila_materialu_zakladny+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu]);
+  cylinder(r=2,h=0.1);
+}
+
+
+
+}
+
+ translate([-(D02_velikost_modulu_x * rotec_der_modulu)/2,-(D02_velikost_modulu_y * rotec_der_modulu)/2-3/2,sila_materialu_zakladny])
+cube([D02_velikost_modulu_x * rotec_der_modulu,D02_velikost_modulu_y * rotec_der_modulu+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu]);
+
+ translate([-(D02_velikost_modulu_x * rotec_der_modulu)/2-1,-(D02_velikost_modulu_y * rotec_der_modulu)/2-3/2-1,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu])
+cube([D02_velikost_modulu_x * rotec_der_modulu+2,D02_velikost_modulu_y * rotec_der_modulu+2+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu]);
+
+
+
+//otvor na sroub 1
+translate([0,(D02_velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+ 
+ translate([0,0,-0.01]) 
+        cylinder (h = sila_materialu_zakladny+D02_vyska_bocniho_prekryvu+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+
+
+ //otvor na sroub 2
+    translate([-(D02_velikost_modulu_x-1)*rotec_der_modulu/2,(D02_velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+      translate([0,0,-0.01]) 
+        cylinder (h = sila_materialu_zakladny+D02_vyska_bocniho_prekryvu+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+
+    //otvor na sroub 3
+    translate([0,-(D02_velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+      translate([0,0,-0.01]) 
+         cylinder (h = sila_materialu_zakladny+D02_vyska_bocniho_prekryvu+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+//otvor na sroub 4
+    translate([-(D02_velikost_modulu_x-1)*rotec_der_modulu/2,-(D02_velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+      translate([0,0,-0.01]) 
+        cylinder (h = sila_materialu_zakladny+D02_vyska_bocniho_prekryvu+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+ 
+ 
+ 
+} 
+} 
+ 
+ module SIPMBOX01C_D01()
+{
+  difference (){
+      union() {
+ //Zakladna
+ translate([-(velikost_modulu_x * rotec_der_modulu)/2+2+1/2,-(velikost_modulu_y * rotec_der_modulu)/2+2+1/2,0])
+ 
+ minkowski()
+{
+  cube([velikost_modulu_x * rotec_der_modulu-2*2-1,velikost_modulu_y * rotec_der_modulu-2*2-1,sila_materialu_zakladny]);
   cylinder(r=2,h=0.1);
 }
 
@@ -52,6 +136,8 @@ translate([(velikost_modulu_x-1)*rotec_der_modulu/2,(velikost_modulu_y-1)*rotec_
  translate([-(zakladna_krystalu_x)/2,-(zakladna_krystalu_y)/2,0])
  cube([zakladna_krystalu_x,zakladna_krystalu_y,vyska_drzaku_krystalu+0.12]);
 } 
+} 
+
  
 module SIPMBOX01B()
 { 
