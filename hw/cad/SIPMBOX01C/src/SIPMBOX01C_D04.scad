@@ -3,12 +3,12 @@ x_holes = 4;
 y_holes = 3;
 MLAB_grid = 10.16;
 pile_radius = 4;
-pedestal_height = 6;   // designed for use the MLAB standard 20mm screws.
+pedestal_height = 4.5;   // designed for use the MLAB standard 20mm screws.
 x_size = x_holes * MLAB_grid ;
 y_size = (y_holes-1) * MLAB_grid ;
 mount_hole = 3.5;
-//nut_size = 6.8;  //size suitable for PLA material
-nut_size = 6.7;  //size suitable for ABS material
+nut_size = 6.8;  //size suitable for PLA material
+//nut_size = 6.7;  //size suitable for ABS material
 clear = 0.175;
 
 

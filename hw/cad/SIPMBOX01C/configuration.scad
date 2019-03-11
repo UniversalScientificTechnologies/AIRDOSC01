@@ -6,7 +6,7 @@ $fn=40; // model faces resolution.
 
 vyska_krystalu=24;
 presah_krystalu=5;
-rezerva_nad_krystalem=3;
+rezerva_nad_krystalem=5;
 vyska_drzaku_krystalu=vyska_krystalu-presah_krystalu;
 
 
@@ -31,4 +31,4 @@ prumer_hlavy_sroubu=6;
 //Pro díl SIPMBOX01C_D02
 D02_velikost_modulu_x=3; //počet der
 D02_velikost_modulu_y=4;
-D02_vyska_bocniho_prekryvu=10;
+D02_vyska_bocniho_prekryvu=9;

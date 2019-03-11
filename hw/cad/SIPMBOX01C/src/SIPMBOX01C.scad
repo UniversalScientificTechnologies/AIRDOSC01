@@ -1,15 +1,15 @@
 include <../configuration.scad>
  
   //translate([0,0,10]) 
-SIPMBOX01C_D02();
+//SIPMBOX01C_D02();
 
-translate([-rotec_der_modulu/2,0,0])
-SIPMBOX01C_D01();
+//translate([-rotec_der_modulu/2,0,0])
+//SIPMBOX01C_D01();
 
 translate([-rotec_der_modulu/2,0,0])
 SIPMBOX01C_D03();
 
-module SIPMBOX01C_D03()
+module SIPMBOX01C_D03() //vrchní kryt
 {
   difference (){
       union() {
@@ -23,7 +23,6 @@ module SIPMBOX01C_D03()
 }
 
 
-
 }
 
 //odstranění vnitřního prostoru ve tvaru krychle
@@ -35,7 +34,7 @@ cube([velikost_modulu_x * rotec_der_modulu,velikost_modulu_y * rotec_der_modulu,
 } 
 } 
 
-module SIPMBOX01C_D02()
+module SIPMBOX01C_D02() //kryt ze spoda
 {
   difference (){
       union() {
@@ -44,7 +43,7 @@ module SIPMBOX01C_D02()
  
  minkowski()
 {
-  cube([D02_velikost_modulu_x * rotec_der_modulu-2*2+2*sila_materialu_zakladny,D02_velikost_modulu_y * rotec_der_modulu-2*2+2*sila_materialu_zakladny+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu]);
+  cube([D02_velikost_modulu_x * rotec_der_modulu-2*2+2*sila_materialu_zakladny,D02_velikost_modulu_y * rotec_der_modulu-2*2+2*sila_materialu_zakladny+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu+1]);
   cylinder(r=2,h=0.1);
 }
 
@@ -52,8 +51,8 @@ module SIPMBOX01C_D02()
 
 }
 
- translate([-(D02_velikost_modulu_x * rotec_der_modulu)/2,-(D02_velikost_modulu_y * rotec_der_modulu)/2-3/2,sila_materialu_zakladny])
-cube([D02_velikost_modulu_x * rotec_der_modulu,D02_velikost_modulu_y * rotec_der_modulu+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu]);
+ translate([-(D02_velikost_modulu_x * rotec_der_modulu)/2-1/2,-(D02_velikost_modulu_y * rotec_der_modulu)/2-3/2,sila_materialu_zakladny])
+cube([D02_velikost_modulu_x * rotec_der_modulu+1,D02_velikost_modulu_y * rotec_der_modulu+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu]);
 
  translate([-(D02_velikost_modulu_x * rotec_der_modulu)/2-1,-(D02_velikost_modulu_y * rotec_der_modulu)/2-3/2-1,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu])
 cube([D02_velikost_modulu_x * rotec_der_modulu+2,D02_velikost_modulu_y * rotec_der_modulu+2+3,sila_materialu_zakladny+D02_vyska_bocniho_prekryvu]);
@@ -86,7 +85,7 @@ translate([0,(D02_velikost_modulu_y-1)*rotec_der_modulu/2,-0.01])
 } 
 } 
  
- module SIPMBOX01C_D01()
+ module SIPMBOX01C_D01() //drzak krystalu
 {
   difference (){
       union() {
