@@ -5,14 +5,16 @@ $fn=40; // model faces resolution.
 //----------------------------------------------------------------
 
 vyska_krystalu=24;
+vyska_sipm=2;
 presah_krystalu=5;
 rezerva_nad_krystalem=5;
 vyska_drzaku_krystalu=vyska_krystalu-presah_krystalu;
 
+hrana_krystalu=6; //čistá hrana
 
 zakladna_krystalu_x=7.8; //0.8mm rezerva hrana SIPM je 7mm
 zakladna_krystalu_y=7.8;
-sila_steny=4;
+sila_steny=2.5;
 sila_materialu_zakladny=2;
 
 
