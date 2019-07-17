@@ -1,12 +1,20 @@
 include <../configuration.scad>
  
-  //translate([0,0,10]) 
-SIPMBOX01C_D02();
-
 /*
 difference (){
+SIPMBOX01C_D05();
+ 
+translate([-(hrana_krystalu)/2,-(hrana_krystalu)/2,0])
+         
+   cube([100,100,100]);   
+    
+}
+*/
+
+
+difference (){
       union() {
-translate([0,0,6])
+translate([0,0,7])
 SIPMBOX01C_D05();
 
 
@@ -23,7 +31,7 @@ cube([hrana_krystalu,hrana_krystalu,vyska_krystalu+vyska_sipm]);
           
           }
           
-*/          
+         
 
 module SIPMBOX01C_D05() //drzak krystalu
 {
@@ -54,7 +62,7 @@ module SIPMBOX01C_D05() //drzak krystalu
  
  minkowski()
 {
-  cube([zakladna_krystalu_x-2*2+2*sila_steny+0.5,zakladna_krystalu_y-2*2+2*sila_steny+0.5,vyska_drzaku_krystalu+1]);
+  cube([zakladna_krystalu_x-2*2+2*sila_steny+0.5,zakladna_krystalu_y-2*2+2*sila_steny+0.5,vyska_drzaku_krystalu]);
   cylinder(r=2,h=0.1);
 }
 
