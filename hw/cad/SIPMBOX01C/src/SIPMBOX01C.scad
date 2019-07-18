@@ -58,11 +58,11 @@ module SIPMBOX01C_D05() //drzak krystalu
 }
 
 //otvor pro dilec 01D
- translate([-(zakladna_krystalu_x+2*sila_steny+0.5)/2+2,-(zakladna_krystalu_y+2*sila_steny+0.5)/2+2,0])
+ translate([-(zakladna_krystalu_x+2*sila_steny+1.5)/2+2,-(zakladna_krystalu_y+2*sila_steny+1.5)/2+2,0])
  
  minkowski()
 {
-  cube([zakladna_krystalu_x-2*2+2*sila_steny+0.5,zakladna_krystalu_y-2*2+2*sila_steny+0.5,vyska_drzaku_krystalu]);
+  cube([zakladna_krystalu_x-2*2+2*sila_steny+1.5,zakladna_krystalu_y-2*2+2*sila_steny+1.5,vyska_drzaku_krystalu]);
   cylinder(r=2,h=0.1);
 }
 
