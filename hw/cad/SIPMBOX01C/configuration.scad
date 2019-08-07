@@ -29,8 +29,12 @@ vyska_matky=3;
 sirka_matky=6.7;
 prumer_sroubu=3.4;
 prumer_hlavy_sroubu=6;
+vyska_hlavy_sroubu=5;
 
 //Pro díl SIPMBOX01C_D02
 D02_velikost_modulu_x=3; //počet der
 D02_velikost_modulu_y=4;
 D02_vyska_bocniho_prekryvu=6.2;
+
+//Pro díl SIPMBOX01C_D07
+D07_vyska=6;
