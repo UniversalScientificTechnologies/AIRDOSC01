@@ -14,11 +14,11 @@ translate([-(hrana_krystalu)/2,-(hrana_krystalu)/2,0])
 
 difference (){
       union() {
-translate([0,0,7])
-SIPMBOX01C_D05();
+//translate([0,0,7])
+//SIPMBOX01C_D05();
 
 
-SIPMBOX01C_D01();
+SIPMBOX01C_D06();
 
 
 //translate([-rotec_der_modulu/2,0,0])
@@ -219,12 +219,64 @@ translate([(velikost_modulu_x-1)*rotec_der_modulu/2,(velikost_modulu_y-1)*rotec_
  
  //otvor na krystal
  
- translate([-(zakladna_krystalu_x)/2,-(zakladna_krystalu_y)/2,0])
+ translate([-(zakladna_krystalu_x)/2,-(zakladna_krystalu_y)/2,-sila_steny])
  cube([zakladna_krystalu_x,zakladna_krystalu_y,vyska_drzaku_krystalu+0.12]);
 } 
 } 
 
+module SIPMBOX01C_D06() //drzak krystalu
+{
+  difference (){
+      union() {
+ //Zakladna
+ translate([-(velikost_modulu_x * rotec_der_modulu)/2+2+1/2,-(velikost_modulu_y * rotec_der_modulu)/2+2+1/2,0])
  
+ minkowski()
+{
+  cube([velikost_modulu_x * rotec_der_modulu-2*2-1,velikost_modulu_y * rotec_der_modulu-2*2-1,sila_materialu_zakladny]);
+  cylinder(r=2,h=0.1);
+}
+
+
+//drzak krystalu
+ translate([-(zakladna_krystalu_x+2*sila_steny)/2+2,-(zakladna_krystalu_y+2*sila_steny)/2+2,0])
+ 
+ minkowski()
+{
+  cube([zakladna_krystalu_x-2*2+2*sila_steny,zakladna_krystalu_y-2*2+2*sila_steny,4]);
+  cylinder(r=2,h=0.1);
+}
+}
+//otvor na sroub 1
+translate([(velikost_modulu_x-1)*rotec_der_modulu/2,(velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+ 
+ translate([0,0,-0.01]) 
+        cylinder (h = sila_materialu_zakladny+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+
+
+ //otvor na sroub 2
+    translate([-(velikost_modulu_x-1)*rotec_der_modulu/2,(velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+      translate([0,0,-0.01]) 
+        cylinder (h = sila_materialu_zakladny+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+
+    //otvor na sroub 3
+    translate([(velikost_modulu_x-1)*rotec_der_modulu/2,-(velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+      translate([0,0,-0.01]) 
+        cylinder (h = sila_materialu_zakladny+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+//otvor na sroub 4
+    translate([-(velikost_modulu_x-1)*rotec_der_modulu/2,-(velikost_modulu_y-1)*rotec_der_modulu/2,-0.01]) 
+      translate([0,0,-0.01]) 
+        cylinder (h = sila_materialu_zakladny+0.12, r= (prumer_sroubu+0.2)/2, $fn=40);
+ 
+ 
+ //otvor na krystal
+ 
+ translate([-(zakladna_krystalu_x)/2,-(zakladna_krystalu_y)/2,-sila_steny])
+ cube([zakladna_krystalu_x,zakladna_krystalu_y,vyska_drzaku_krystalu+0.12]);
+} 
+}  
+
+
 module SIPMBOX01B()
 { 
 
