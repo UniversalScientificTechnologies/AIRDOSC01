@@ -35,6 +35,6 @@
 
 * [SIPMPOWER01A](https://github.com/UniversalScientificTechnologies/AIRDOSC01/tree/AIRDOSC01A/hw/sch_pcb/SIPMPOWER01A)
 * [SIPM01B](https://github.com/UniversalScientificTechnologies/AIRDOSC01/tree/AIRDOSC01A/hw/sch_pcb/SIPM01B/hw/sch_pcb) 
-* [PCRD05A](http://mlab.ust.cz/module/PCRD05A) 
-* [GPS01B](http://mlab.ust.cz/module/GPS01B) 
+* [PCRD05A](http://mlab.cz/module/PCRD05A) 
+* [GPS01B](http://mlab.cz/module/GPS01B) 
 * [DATALOGGER01A](http://mlab.cz/module/DATALOGGER01A) 
