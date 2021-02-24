@@ -3,273 +3,295 @@
         "Datasheet": "~", 
         "Footprint": "Mlab_C:TantalC_SizeC_Reflow", 
         "Ref": "C1", 
-        "Tstamp": "5BB0957A", 
+        "Tstamp": "00000000-0000-0000-0000-00005bb0957a", 
+        "UST_ID": "5c70984812875079b91f8bac", 
         "Value": "15uF/35V"
     }, 
     {
         "Datasheet": "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb", 
         "Footprint": "Mlab_L:FIR_1806", 
         "Ref": "C2", 
-        "Tstamp": "5BAF331F", 
+        "Tstamp": "00000000-0000-0000-0000-00005baf331f", 
+        "UST_ID": "5c70984712875079b91f8b9b", 
         "Value": "1u5/50V - NFM41PC155B1H3L"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_C:TantalC_SizeC_Reflow", 
         "Ref": "C3", 
-        "Tstamp": "5C72FE35", 
+        "Tstamp": "00000000-0000-0000-0000-00005c72fe35", 
+        "UST_ID": "5c70984412875079b91f8867", 
         "Value": "47uF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C4", 
-        "Tstamp": "5C730075", 
+        "Tstamp": "00000000-0000-0000-0000-00005c730075", 
+        "UST_ID": "5c70984712875079b91f8b53", 
         "Value": "10u"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C5", 
-        "Tstamp": "5C6C298F", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6c298f", 
+        "UST_ID": "5c70984712875079b91f8b4c", 
         "Value": "100nF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C6", 
-        "Tstamp": "5C6C3F27", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6c3f27", 
+        "UST_ID": "5c70984712875079b91f8b49", 
         "Value": "10nF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C7", 
-        "Tstamp": "5C7302B4", 
+        "Tstamp": "00000000-0000-0000-0000-00005c7302b4", 
+        "UST_ID": "5c70984712875079b91f8b53", 
         "Value": "10u"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C8", 
-        "Tstamp": "5C7301D2", 
+        "Tstamp": "00000000-0000-0000-0000-00005c7301d2", 
+        "UST_ID": "5c70984712875079b91f8b4c", 
         "Value": "100nF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C9", 
-        "Tstamp": "5C6C407A", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6c407a", 
+        "UST_ID": "5c70984712875079b91f8b49", 
         "Value": "10nF"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "C10", 
-        "Tstamp": "5C6E466E", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6e466e", 
         "Value": "-"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_D:Diode-SMA_Standard", 
         "Ref": "D1", 
-        "Tstamp": "5C742691", 
+        "Tstamp": "00000000-0000-0000-0000-00005c742691", 
+        "UST_ID": "5c70984512875079b91f88ac", 
         "Value": "M4"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J1", 
-        "Tstamp": "5C757DE5", 
+        "Tstamp": "00000000-0000-0000-0000-00005c757de5", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J2", 
-        "Tstamp": "5C75370A", 
+        "Tstamp": "00000000-0000-0000-0000-00005c75370a", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J3", 
-        "Tstamp": "5C75385D", 
+        "Tstamp": "00000000-0000-0000-0000-00005c75385d", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J4", 
-        "Tstamp": "5C6DBC7D", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6dbc7d", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J5", 
-        "Tstamp": "5C749873", 
+        "Tstamp": "00000000-0000-0000-0000-00005c749873", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J6", 
-        "Tstamp": "5C74D68D", 
+        "Tstamp": "00000000-0000-0000-0000-00005c74d68d", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J7", 
-        "Tstamp": "5C73FF81", 
+        "Tstamp": "00000000-0000-0000-0000-00005c73ff81", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J8", 
-        "Tstamp": "5C73FBA4", 
+        "Tstamp": "00000000-0000-0000-0000-00005c73fba4", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J9", 
-        "Tstamp": "5C6DECB4", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6decb4", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Pin_Headers:Straight_2x01", 
         "Ref": "J10", 
-        "Tstamp": "5C73FDF3", 
+        "Tstamp": "00000000-0000-0000-0000-00005c73fdf3", 
         "Value": "HEADER_2x01_PARALLEL"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M1", 
-        "Tstamp": "549D7549", 
+        "Tstamp": "00000000-0000-0000-0000-0000549d7549", 
         "Value": "HOLE"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M2", 
-        "Tstamp": "5C6D1882", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6d1882", 
         "Value": "HOLE"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M3", 
-        "Tstamp": "5C6D1820", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6d1820", 
         "Value": "HOLE"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_Mechanical:MountingHole_3mm", 
         "Ref": "M4", 
-        "Tstamp": "549D7665", 
+        "Tstamp": "00000000-0000-0000-0000-0000549d7665", 
         "Value": "HOLE"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R1", 
-        "Tstamp": "5C6C24DF", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6c24df", 
+        "UST_ID": "5c70984512875079b91f898c", 
         "Value": "1k"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R2", 
-        "Tstamp": "5C6C26CA", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6c26ca", 
+        "UST_ID": "5c70984512875079b91f896d", 
         "Value": "10R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R3", 
-        "Tstamp": "5C73045C", 
+        "Tstamp": "00000000-0000-0000-0000-00005c73045c", 
+        "UST_ID": "5c70984512875079b91f8977", 
         "Value": "100R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R4", 
-        "Tstamp": "5C6C3EC7", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6c3ec7", 
+        "UST_ID": "5c70984512875079b91f896d", 
         "Value": "10R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R5", 
-        "Tstamp": "5C6DDFA9", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6ddfa9", 
+        "UST_ID": "5c70984512875079b91f896b", 
         "Value": "0R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R6", 
-        "Tstamp": "5C6E438B", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6e438b", 
+        "UST_ID": "5c70984512875079b91f896b", 
         "Value": "0R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R7", 
-        "Tstamp": "5C6E44AE", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6e44ae", 
+        "UST_ID": "5c70984512875079b91f898f", 
         "Value": "2k"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R8", 
-        "Tstamp": "5C6E4554", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6e4554", 
+        "UST_ID": "5c70984512875079b91f898f", 
         "Value": "2k"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R9", 
-        "Tstamp": "5C6F744A", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6f744a", 
+        "UST_ID": "5c70984512875079b91f898c", 
         "Value": "1k"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R10", 
-        "Tstamp": "5C6FF14E", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6ff14e", 
+        "UST_ID": "5c70984512875079b91f898c", 
         "Value": "1k"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R11", 
-        "Tstamp": "5C6F9BE2", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6f9be2", 
+        "UST_ID": "5c70984512875079b91f896b", 
         "Value": "0R"
     }, 
     {
         "Datasheet": "~", 
         "Footprint": "Mlab_R:SMD-0805", 
         "Ref": "R12", 
-        "Tstamp": "5C70A07B", 
+        "Tstamp": "00000000-0000-0000-0000-00005c70a07b", 
+        "UST_ID": "5c70984512875079b91f898c", 
         "Value": "1k"
     }, 
     {
         "Datasheet": "", 
         "Footprint": "Mlab_IO:MicroFC\u221260035\u2212SMT", 
         "Ref": "U1", 
-        "Tstamp": "5C5D8BBE", 
+        "Tstamp": "00000000-0000-0000-0000-00005c5d8bbe", 
         "Value": "MICROFC-60035-SMT-TR(1)"
     }, 
     {
         "Datasheet": "http://www.ti.com/lit/ds/symlink/opa847.pdf", 
         "Footprint": "Package_TO_SOT_SMD:SOT-23-6", 
         "Ref": "U2", 
-        "Tstamp": "5C6F2175", 
+        "Tstamp": "00000000-0000-0000-0000-00005c6f2175", 
         "UST_ID": "5c7273171287500b4e112ff8", 
         "Value": "OPA836IDB"
     }
