@@ -7,16 +7,16 @@
 
 **Technical parameters are following:** 
 
-* Detection element: scintillating crystal integrated with SiPM
-* Autonomous operation: battery
+* Detection element: scintillating crystal integrated with [SiPM](https://en.wikipedia.org/wiki/Silicon_photomultiplier)
+* More than 90 days autonomous operation powered by lithium battery
 * Data memory: SD card
-* Record’s content: energy and time of each event
-* Record’s periodicity: 10 s (dead time 2 s)
+* Data logs contains energy and time of each event
+* Logging periodicity: 10 s (dead time 2 s)
 * Time resolution: 20 us
 * Accuracy of event’s time: 500 ns
 * Dimensions: 57 x 107 x 167 mm
-* Weight in operating condition: 1 kg
-* Open-source HW and SW: YES
+* Mass in operating condition (including batteries) 1 kg
+* Open-source HW and SW
 * Device status indicator: LED on panel
 
 **Device block diagram**
@@ -33,8 +33,8 @@
 
 **Production data of electronic modules**
 
-* [SIPMPOWER01A](https://github.com/UniversalScientificTechnologies/AIRDOSC01/tree/AIRDOSC01A/hw/sch_pcb/SIPMPOWER01A)
-* [SIPM01B](https://github.com/UniversalScientificTechnologies/AIRDOSC01/tree/AIRDOSC01A/hw/sch_pcb/SIPM01B/hw/sch_pcb) 
+* [SIPMPOWER01A](/hw/sch_pcb/SIPMPOWER01A)
+* [SIPM01B](/hw/sch_pcb/SIPM01B/hw/sch_pcb) 
 * [PCRD05A](http://mlab.cz/module/PCRD05A) 
 * [GPS01B](http://mlab.cz/module/GPS01B) 
 * [DATALOGGER01A](http://mlab.cz/module/DATALOGGER01A) 
