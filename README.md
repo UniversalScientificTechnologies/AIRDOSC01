@@ -18,6 +18,7 @@
 * Mass in operating condition (including batteries) 1 kg
 * Open-source HW and SW
 * Device status indicator: LED on panel
+* Airborne GPS parameters (measurement altitude verified up to 36km amsl)
 
 **Device block diagram**
 ![AIRDOSC01A block diagram](hw/sch_pcb/AIRDOSC01A_block.png)
