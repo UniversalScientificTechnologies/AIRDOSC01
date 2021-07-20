@@ -104,7 +104,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -116,7 +116,7 @@
         "min_via_diameter": 0.39999999999999997
       },
       "track_widths": [
-        0.25,
+        0.0,
         0.4,
         0.5,
         0.6,
@@ -125,8 +125,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.0,
+          "drill": 0.0
         },
         {
           "diameter": 0.8,
@@ -351,7 +351,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AIRDOSC01A_PCB01B.kicad_pro",
+    "filename": "AIRDOSC01A_PCB01C.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -428,7 +428,7 @@
   },
   "sheets": [
     [
-      "48f5ba00-50e8-4cc5-b1e0-fa1f676d9bcf",
+      "84eb22fe-7218-4aac-a8b0-0fccac449dcf",
       ""
     ]
   ],
