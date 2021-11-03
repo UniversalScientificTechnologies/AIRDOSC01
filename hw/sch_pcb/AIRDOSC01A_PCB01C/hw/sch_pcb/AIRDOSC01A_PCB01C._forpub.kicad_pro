@@ -352,7 +352,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AIRDOSC01A_PCB01C.kicad_pro",
+    "filename": "AIRDOSC01A_PCB01C._forpub.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -433,7 +433,7 @@
   },
   "sheets": [
     [
-      "84eb22fe-7218-4aac-a8b0-0fccac449dcf",
+      "4adb4e11-1e76-43f3-88eb-8c07df63fde5",
       ""
     ]
   ],
