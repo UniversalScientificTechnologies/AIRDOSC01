@@ -1,8 +1,8 @@
 # AIRDOSC01
-*Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. Character of its construction makes it especially suitable for placement into UAVs.*
+*AIRDOS-C Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. Character of its construction makes it especially suitable for placement into UAVs.*
 
 
-![AIRDOSC01A front panel](/doc/src/img/AIRDOSC01A_box_front.jpg "AIRDOS front panel")
+![AIRDOS-C front panel](/doc/src/img/AIRDOSC01A_box_front.jpg "AIRDOS front panel")
 
 
 **Technical parameters are following:** 
