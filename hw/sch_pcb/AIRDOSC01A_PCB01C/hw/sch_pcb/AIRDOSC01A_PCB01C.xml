@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\UST_G\AIRDOSC01\hw\sch_pcb\AIRDOSC01A_PCB01B\hw\sch_pcb\AIRDOSC01A_PCB01B.kicad_sch</source>
-    <date>03.04.2021 15:04:54</date>
-    <tool>Eeschema (5.99.0-9763-gb71ab01de4)</tool>
+    <source>F:\UST_G\AIRDOSC01\hw\sch_pcb\AIRDOSC01A_PCB01C\hw\sch_pcb\AIRDOSC01A_PCB01C.kicad_sch</source>
+    <date>03.01.2022 14:01:27</date>
+    <tool>Eeschema (5.99.0-13046-g4fe9f01eb0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>NAME</title>
         <company>Mlab www.mlab.cz</company>
         <rev>REV</rev>
         <date>%F</date>
-        <source>AIRDOSC01A_PCB01B.kicad_sch</source>
+        <source>AIRDOSC01A_PCB01C.kicad_sch</source>
         <comment number="1" value="VERSION"/>
         <comment number="2" value="Short description \nTwo lines are maximum"/>
         <comment number="3" value="nickname &lt;email@example.com&gt;"/>
@@ -27,14 +27,13 @@
     <comp ref="C1">
       <value>15uF/35V</value>
       <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bac</field>
       </fields>
       <libsource lib="AIRDOSC01A_PCB01A-rescue" part="CP-Device" description=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bac"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bb0957a</tstamps>
     </comp>
@@ -48,133 +47,124 @@
       <libsource lib="AIRDOSC01A_PCB01A-rescue" part="EMI_Filter_C-Device" description=""/>
       <property name="UST_ID" value="5c70984712875079b91f8b9b"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005baf331f</tstamps>
     </comp>
     <comp ref="C3">
       <value>47uF</value>
       <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8867</field>
       </fields>
       <libsource lib="AIRDOSC01A_PCB01A-rescue" part="CP-Device" description=""/>
       <property name="UST_ID" value="5c70984412875079b91f8867"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c72fe35</tstamps>
     </comp>
     <comp ref="C4">
       <value>10u</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b53</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c730075</tstamps>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6c298f</tstamps>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6c3f27</tstamps>
     </comp>
     <comp ref="C7">
       <value>10u</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b53</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b53"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c7302b4</tstamps>
     </comp>
     <comp ref="C8">
       <value>100nF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c7301d2</tstamps>
     </comp>
     <comp ref="C9">
       <value>10nF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b49</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b49"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6c407a</tstamps>
     </comp>
     <comp ref="C10">
       <value>0R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f896b</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6e466e</tstamps>
     </comp>
     <comp ref="D1">
       <value>M4</value>
       <footprint>Mlab_D:Diode-SMA_Standard</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f88ac</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="UST_ID" value="5c70984512875079b91f88ac"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c742691</tstamps>
     </comp>
@@ -183,7 +173,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c757de5</tstamps>
     </comp>
@@ -192,7 +182,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c75370a</tstamps>
     </comp>
@@ -201,7 +191,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c75385d</tstamps>
     </comp>
@@ -210,7 +200,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6dbc7d</tstamps>
     </comp>
@@ -219,7 +209,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c749873</tstamps>
     </comp>
@@ -228,7 +218,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c74d68d</tstamps>
     </comp>
@@ -237,7 +227,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c73ff81</tstamps>
     </comp>
@@ -246,7 +236,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c73fba4</tstamps>
     </comp>
@@ -255,7 +245,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6decb4</tstamps>
     </comp>
@@ -264,7 +254,7 @@
       <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c73fdf3</tstamps>
     </comp>
@@ -273,7 +263,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7549</tstamps>
     </comp>
@@ -282,7 +272,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6d1882</tstamps>
     </comp>
@@ -291,7 +281,7 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6d1820</tstamps>
     </comp>
@@ -300,178 +290,170 @@
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
     </comp>
     <comp ref="R1">
       <value>10R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f896d</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f896d"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6c24df</tstamps>
     </comp>
     <comp ref="R2">
       <value>10R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f896d</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f896d"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6c26ca</tstamps>
     </comp>
     <comp ref="R3">
       <value>100R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8977</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c73045c</tstamps>
     </comp>
     <comp ref="R4">
       <value>10R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f896d</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f896d"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6c3ec7</tstamps>
     </comp>
     <comp ref="R5">
       <value>10R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f896d</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f896d"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6ddfa9</tstamps>
     </comp>
     <comp ref="R6">
       <value>-</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6e438b</tstamps>
     </comp>
     <comp ref="R7">
       <value>-</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6e44ae</tstamps>
     </comp>
     <comp ref="R8">
       <value>100nF</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6e4554</tstamps>
     </comp>
     <comp ref="R9">
       <value>470R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8986</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8986"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6f744a</tstamps>
     </comp>
     <comp ref="R10">
-      <value>6k8</value>
+      <value>12k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
-        <field name="UST_ID">5c70984612875079b91f899a</field>
+        <field name="UST_ID">5c70984612875079b91f89a1</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984612875079b91f899a"/>
+      <property name="UST_ID" value="5c70984612875079b91f89a1"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6ff14e</tstamps>
     </comp>
     <comp ref="R11">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f898c</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f898c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6f9be2</tstamps>
     </comp>
     <comp ref="R12">
       <value>1k</value>
       <footprint>Mlab_R:SMD-0805</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f898c</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f898c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c70a07b</tstamps>
     </comp>
     <comp ref="U1">
       <value>MICROFC-60035-SMT-TR(1)</value>
       <footprint>Mlab_IO:MicroFC−60035−SMT</footprint>
+      <fields>
+        <field name="UST_ID">60f907411287500165a96c1e</field>
+      </fields>
       <libsource lib="MLAB_IO" part="MICROFC-60035-SMT-TR(1)" description=""/>
+      <property name="UST_ID" value="60f907411287500165a96c1e"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c5d8bbe</tstamps>
     </comp>
@@ -485,7 +467,7 @@
       <libsource lib="Amplifier_Operational" part="OPA847xDBV" description="Single Low-Power, 3.9GHz, Wideband, Ultra-Low Noise, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6"/>
       <property name="UST_ID" value="5c7273171287500b4e112ff8"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AIRDOSC01A_PCB01B.kicad_sch"/>
+      <property name="Sheetfile" value="AIRDOSC01A_PCB01C.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c6f2175</tstamps>
     </comp>
@@ -500,8 +482,8 @@
         <field name="Value">CP-Device</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="AIRDOSC01A_PCB01A-rescue" part="EMI_Filter_C-Device">
@@ -528,11 +510,11 @@
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/opa847.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="output"/>
+        <pin num="1" name="" type="output"/>
         <pin num="2" name="V-" type="power_in"/>
         <pin num="3" name="+" type="input"/>
         <pin num="4" name="-" type="input"/>
-        <pin num="5" name="~DIS" type="input"/>
+        <pin num="5" name="~{DIS}" type="input"/>
         <pin num="6" name="V+" type="power_in"/>
       </pins>
     </libpart>
@@ -548,8 +530,8 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="D">
@@ -583,8 +565,8 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL">
@@ -594,8 +576,8 @@
         <field name="Value">HEADER_2x01_PARALLEL</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_IO" part="MICROFC-60035-SMT-TR(1)">
@@ -616,28 +598,28 @@
         <field name="Value">HOLE</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="input"/>
+        <pin num="1" name="" type="input"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="AIRDOSC01A_PCB01A-rescue">
-      <uri>D:\UST_G\AIRDOSC01\hw\sch_pcb\AIRDOSC01A_PCB01B\hw\sch_pcb/AIRDOSC01A_PCB01B-rescue.lib</uri>
+      <uri>F:\UST_G\AIRDOSC01\hw\sch_pcb\AIRDOSC01A_PCB01C\hw\sch_pcb/AIRDOSC01A_PCB01C-rescue.lib</uri>
     </library>
     <library logical="Amplifier_Operational">
-      <uri>D:\GIT\Kicad\kicad-symbols/Amplifier_Operational.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
     </library>
     <library logical="Device">
-      <uri>D:\GIT\Kicad\kicad-symbols/Device.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="MLAB_HEADER">
-      <uri>D:\MLAB_G\kicad-mlab\symbols/MLAB_HEADER.lib</uri>
+      <uri>F:\MLAB_G\kicad-mlab\symbols/MLAB_HEADER.lib</uri>
     </library>
     <library logical="MLAB_IO">
-      <uri>D:\MLAB_G\kicad-mlab\symbols/MLAB_IO.kicad_sym</uri>
+      <uri>F:\MLAB_G\kicad-mlab\symbols/MLAB_IO.kicad_sym</uri>
     </library>
     <library logical="MLAB_MECHANICAL">
-      <uri>D:\MLAB_G\kicad-mlab\symbols/MLAB_MECHANICAL.lib</uri>
+      <uri>F:\MLAB_G\kicad-mlab\symbols/MLAB_MECHANICAL.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -658,7 +640,7 @@
       <node ref="J10" pin="1" pintype="input"/>
       <node ref="J10" pin="2" pintype="input"/>
       <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="U2" pin="5" pinfunction="~DIS" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="~{DIS}" pintype="input"/>
     </net>
     <net code="4" name="/+3V6">
       <node ref="C3" pin="1" pintype="passive"/>

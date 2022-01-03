@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210228) (generator pcbnew)
+(kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -640,14 +640,14 @@
     (at 18.8595 -21.336)
     (property "Sheetfile" "AIRDOSC01A_PCB01C.kicad_sch")
     (property "Sheetname" "")
-    (property "UST_ID" "5c70984612875079b91f899a")
+    (property "UST_ID" "5c70984612875079b91f89a1")
     (path "/00000000-0000-0000-0000-00005c6ff14e")
     (attr smd)
     (fp_text reference "R10" (at 0 0.3175) (layer "B.Fab")
       (effects (font (size 0.50038 0.50038) (thickness 0.10922)) (justify mirror))
       (tstamp 55b184ec-7231-4752-a75a-f4d76666b166)
     )
-    (fp_text value "6k8" (at 0.127 -0.381) (layer "B.Fab")
+    (fp_text value "12k" (at 0.127 -0.381) (layer "B.Fab")
       (effects (font (size 0.50038 0.50038) (thickness 0.10922)) (justify mirror))
       (tstamp e5c376df-1f81-4134-b4dd-a70fb3c8b298)
     )
@@ -1540,7 +1540,7 @@
     (pad "4" smd rect locked (at 1.1 -0.95) (size 1.06 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 14 "Net-(R10-Pad2)") (pinfunction "-") (pintype "input") (tstamp 31f979c4-3d19-4a7a-aafe-23dddd81cdc4))
     (pad "5" smd rect locked (at 1.1 0) (size 1.06 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 12 "/#PD") (pinfunction "~DIS") (pintype "input") (tstamp c03b37e7-f959-4b2b-9a70-29d8934aab70))
+      (net 12 "/#PD") (pinfunction "~{DIS}") (pintype "input") (tstamp c03b37e7-f959-4b2b-9a70-29d8934aab70))
     (pad "6" smd rect locked (at 1.1 0.95) (size 1.06 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "+3V3") (pinfunction "V+") (pintype "power_in") (tstamp 0c5b24ac-d4e6-4e14-8134-5636a72eb461))
     (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
@@ -1550,11 +1550,14 @@
     )
   )
 
-  (gr_poly (pts
- (xy 24.384 -40.132)
-    (xy 24.384 -0.508)
-    (xy 29.972 -0.508)
-    (xy 29.972 -40.132)) (layer "F.Mask") (width 0.15) (fill solid) (tstamp 517b0a2e-46af-4519-89c7-7e87d177e0a9))
+  (gr_poly
+    (pts
+
+      (xy 24.384 -40.132)
+      (xy 24.384 -0.508)
+      (xy 29.972 -0.508)
+      (xy 29.972 -40.132)
+    ) (layer "F.Mask") (width 0.15) (fill solid) (tstamp 517b0a2e-46af-4519-89c7-7e87d177e0a9))
   (gr_line (start 30.353 -0.254) (end 30.353 -40.386) (layer "Edge.Cuts") (width 0.15) (tstamp 036ff447-1a71-4f13-b45c-882f5722126c))
   (gr_line (start 0.381 -0.254) (end 0.381 -40.386) (layer "Edge.Cuts") (width 0.15) (tstamp 223f60ad-c1ac-4f92-b43f-2a888f4e1708))
   (gr_line (start 0.381 -0.254) (end 30.353 -0.254) (layer "Edge.Cuts") (width 0.15) (tstamp 5d249be4-35bf-45e3-bd9b-b39761f72e70))
