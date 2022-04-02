@@ -1,11 +1,9 @@
-# AIRDOSC01
+# AIRDOSC01B
 *AIRDOS-C Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. Character of its construction makes it especially suitable for placement into UAVs.*
-
 
 ![AIRDOS-C front panel](/doc/src/img/AIRDOSC01A_box_front.jpg)
 
-
-**Technical parameters are following:** 
+**Technical parameters are following:**
 
 * Detection element: scintillating crystal integrated with [SiPM](https://en.wikipedia.org/wiki/Silicon_photomultiplier)
 * More than 90 days autonomous operation powered by lithium battery
@@ -21,21 +19,12 @@
 * Airborne GPS parameters (measurement altitude verified up to 36km amsl)
 
 **Device block diagram**
-![AIRDOSC01A block diagram](hw/sch_pcb/AIRDOSC01A_block.png)
-
-**PCRD05A semiconductor detector schematics**
-![AIRDOSC01A - detektor schematics ](hw/sch_pcb/PCRD05A_Detector_Schematics.png)
-
-**SIPM01B schematics**
-![SIPM01B schematics ](hw/sch_pcb/SIPM01B_Schematics.png)
-
-**SIPMPOWER01A schematics**
-![SIPMPOWER01A schematics ](hw/sch_pcb/SIPMPOWER01A_Schematics.png)
+![AIRDOSC01B block diagram](hw/sch_pcb/AIRDOSC01B_block.png)
 
 **Production data of electronic modules**
 
-* [SIPMPOWER01A](/hw/sch_pcb/SIPMPOWER01A)
-* [SIPM01B](/hw/sch_pcb/SIPM01B/hw/sch_pcb) 
-* [PCRD05A](http://mlab.cz/module/PCRD05A) 
-* [GPS01B](http://mlab.cz/module/GPS01B) 
-* [DATALOGGER01A](http://mlab.cz/module/DATALOGGER01A) 
+* [STEPUPDC02A](https://github.com/mlab-modules/STEPUPDC02)
+* [SIPM02C](https://github.com/mlab-modules/SIPM02) known as "AIRDOSC01A_PCB01C"
+* [PCRD06A](https://github.com/mlab-modules/PCRD06)
+* [GPS01B](https://www.mlab.cz/module/GPS01B)
+* [DATALOGGER01A](http://mlab.cz/module/DATALOGGER01A)
