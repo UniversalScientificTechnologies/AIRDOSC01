@@ -28,3 +28,7 @@
 * [PCRD06A](https://github.com/mlab-modules/PCRD06)
 * [GPS01B](https://www.mlab.cz/module/GPS01B)
 * [DATALOGGER01A](http://mlab.cz/module/DATALOGGER01A)
+
+Relevant scientific papers
+
+* [CHARACTERISATION OF AIRDOS-C DETECTOR FOR MEASUREMENT OF HIGH-ENERGY EVENTS IN THE ATMOSPHERE](https://academic.oup.com/rpd/article-abstract/198/9-11/604/6672998?redirectedFrom=fulltext&login=false)
