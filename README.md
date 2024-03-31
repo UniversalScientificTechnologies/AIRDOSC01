@@ -1,4 +1,4 @@
-# AIRDOS-C01B - AIRDOS dosimeter with scintillator-based sensor
+# AIRDOSC01B - AIRDOS dosimeter with scintillator-based sensor
 *AIRDOS-C Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. The character of its construction makes it especially suitable for placement into UAVs.*
 
 ![AIRDOS-C front panel](/doc/src/img/AIRDOSC01A_box_front.jpg)
