@@ -1,14 +1,14 @@
-# AIRDOSC01B
-*AIRDOS-C Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. Character of its construction makes it especially suitable for placement into UAVs.*
+# AIRDOS-C01B - AIRDOS dosimeter with scintillator based sensor
+*AIRDOS-C Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. The character of its construction makes it especially suitable for placement into UAVs.*
 
 ![AIRDOS-C front panel](/doc/src/img/AIRDOSC01A_box_front.jpg)
 
-**Technical parameters are following:**
+**Technical parameters are the following:**
 
 * Detection element: scintillating crystal integrated with [SiPM](https://en.wikipedia.org/wiki/Silicon_photomultiplier)
-* More than 90 days autonomous operation powered by lithium battery
+* More than 90 days of autonomous operation powered by a lithium battery
 * Data memory: SD card
-* Data logs contains energy and time of each event
+* Data logs contain the energy and time of each event
 * Logging periodicity: 10 s (dead time 2 s)
 * Time resolution: 20 us
 * Accuracy of event’s time: 500 ns
@@ -16,7 +16,7 @@
 * Mass in operating condition (including batteries) 1 kg
 * Open-source HW and SW
 * Device status indicator: LED on panel
-* Airborne GPS parameters (measurement altitude verified up to 36km amsl)
+* Airborne GPS parameters (measurement altitude verified up to 36km a.m.s.l.)
 
 **Device block diagram**
 ![AIRDOSC01B block diagram](hw/sch_pcb/AIRDOSC01B_block.png)
