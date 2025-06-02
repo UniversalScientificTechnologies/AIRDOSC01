@@ -1,5 +1,5 @@
 # AIRDOSC01B - AIRDOS dosimeter with scintillator-based sensor
-*AIRDOS-C Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. The character of its construction makes it especially suitable for placement into UAVs.*
+*AIRDOS-C Scintillation detector of ionizing radiation with a full production specification available. The device can be further modified according to specific requirements. The character of its construction makes it suitable for placement into UAVs.*
 
 ![AIRDOS-C front panel](/doc/src/img/AIRDOSC01A_box_front.jpg)
 
@@ -17,6 +17,8 @@
 * Open-source HW and SW
 * Device status indicator: LED on panel
 * Airborne GPS parameters (measurement altitude verified up to 36km a.m.s.l.)
+
+Since 2023, AIRDOSC has been discontinued. Please consider a newer [UST dosimeter series](https://www.ust.cz/UST-dosimeters/). 
 
 **Device block diagram**
 ![AIRDOSC01B block diagram](hw/sch_pcb/AIRDOSC01B_block.png)
